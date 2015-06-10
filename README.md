@@ -25,12 +25,13 @@ Or install it yourself as:
 ## Getting started
 
 In order to use Polymer paper elements you need to have
-`polymer` and `iron-elements` installed in your project. Use [polymer-rails](https://github.com/alchapone/polymer-rails) gem for adding `polymer` to your Rails application,
-and [polymer-iron-rails](https://github.com/vsimonian/polymer-iron-rails) for `iron-elements`.
+`polymer`, `iron-elements`, and `neon-elements` installed in your project. Use [polymer-rails](https://github.com/alchapone/polymer-rails) gem for adding `polymer` to your Rails application,
+[polymer-iron-rails](https://github.com/vsimonian/polymer-iron-rails) for `iron-elements`, and [polymer-neon-rails](https://github.com/vsimonian/polymer-neon-rails) for `neon-elements`.
 
 ```ruby
 gem 'polymer-rails'
 gem 'polymer-iron-rails', :git => "git://github.com/vsimonian/polymer-iron-rails.git"
+gem 'polymer-neon-rails', :git => "git://github.com/vsimonian/polymer-neon-rails.git"
 gem 'polymer-paper-rails', :git => "git://github.com/vsimonian/polymer-paper-rails.git"
 ```
 
